@@ -40,12 +40,14 @@ Your task is to containerize this existing application using Docker. You need to
 
 - To build the docker image run the command:
 
-```bash build -t my-node-app .
+```bash 
+build -t my-node-app .
 ```
 
 - To run your docker container in port 3000 run the command:
 
-```bash docker run -p 3000:3000 my-node-app
+```bash 
+docker run -p 3000:3000 my-node-app
 
 ```
 
